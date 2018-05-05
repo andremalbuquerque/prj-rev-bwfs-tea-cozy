@@ -1,0 +1,140 @@
+body{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin: 0;
+  align-content: center;
+  background-color: black;
+}
+
+header{
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  position: fixed;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  color: seashell;
+}
+
+a{
+  color: seashell;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+  }
+
+.maincontainer{
+  width: 1200px;
+  padding-top: 69px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+.missioncontainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  justify-content: center;
+}
+
+.content{
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  }
+
+  h2, h3, h4{
+    margin: 0;
+    padding: 10px;
+  }
+
+.teascontainer{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+  justify-content: center;
+}
+
+.imgcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teaimage{
+  display: flex;
+  flex-direction: column;
+}
+
+.teaimage span{
+  padding: 10px;
+  font-weight: bold;
+}
+
+.teaimage img{
+  height: 200px;
+  margin: 10px;
+}
+
+.locations{
+  padding-top: 70px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+
+}
+
+.flexlocations{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.location{
+  margin: 5px 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+}
+
+.contacts{
+  text-align: center;
+  height: 200px;
+}
+
+footer{
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
